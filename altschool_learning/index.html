@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+  </head>
+  <body>
+    <h1>Home Page</h1>
+    <section>
+      <!-- Internal Navigation Links -->
+      <a href="./">Home</a>
+      <a href="./about/index.html">About Page</a>
+      <!-- External navigation Links -->
+      <a href="https://learn.altschoolafrica.com/" target="_blank">altschoolafrica LMS</a>
+      <!-- image Download Link -->
+      <a href="./assets/images/image.jpg" download>download image</a>
+      <!embeding media files(audio and video) -->
+      <audio src="./assets/audios/BNXN-Ft-Soweto-Gospel-Choir-In-Jesus-Name-(TrendyBeatz.com).mp3" controls></audio>
+      <video src="./assets/videos/video.mp4" controls></video>
+    </section>
+    <!--forms-->
+    <section>
+      <form action="">
+        <label for="name">Enter your name:</label>
+        <br>
+        <input type="text" id="name" name="name" placeholder="Enter your name here" />
+        <br>
+        <label for="email">Enter your email:</label>
+        <br>
+        <input type="email" id="email" name="email" placeholder="Enter your email here" />
+        <br>
+        <label for="message">enter your message here</label>
+        <br>
+        <textarea id="message" name="message" placeholder="Enter your message here"></textarea>
+        <br>
+        <input type="submit" value="Submit" />
+        <input type="reset" value="Reset" />
+        <br>
+        <br>
+
+        <label for="section">Select your pet:</label>
+        <select>
+          <option value="dog">dog</option>
+          <option value="cat">cat</option>
+          <option value="squirrel">squirrel</option>
+        </select>
+      </form>
+    </section>
+  </body>
+</html>
